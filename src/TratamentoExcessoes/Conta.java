@@ -1,5 +1,4 @@
-public package TratamentoExcessoes;
-
+package TratamentoExcessoes;
 class Conta {
 
     private int numConta;
