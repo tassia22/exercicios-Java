@@ -27,7 +27,7 @@ public class Programa {
         System.out.print("entre com o numero de parcelas: ");
         int n = scan.nextInt();
 
-        ContratoServ servicoContr = new ContratoServ(new ServPagamento());
+        ContratoServ servicoContr = new ContratoServ();
         servicoContr.ContratoPocesso(contrato, n);
 
         System.out.print("parcelas: ");
