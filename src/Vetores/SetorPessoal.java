@@ -10,11 +10,11 @@ public class SetorPessoal {
         if (funcionario == null){
             return false;
         }
-       return funcionario.add(funcionario);
+       return funcionarios.add(funcionario);
 
     }
     public boolean removeFuncionario(Funcionario funcionario){
-        return funcionario.remove(funcionario);
+        return funcionarios.remove(funcionario);
 
     }
     public Funcionario buscarFuncionario(int matricula){
