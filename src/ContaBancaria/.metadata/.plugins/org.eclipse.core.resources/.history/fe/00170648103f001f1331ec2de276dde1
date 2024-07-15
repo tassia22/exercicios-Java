@@ -1,0 +1,29 @@
+package Aplicacao;
+
+import java.util.Scanner;
+
+public class Programa {
+	
+	public static void main(String [] args) {
+		
+		Scanner scan = new Scanner (System.in);
+		
+		System.out.println("insira os dados da conta");
+		System.out.print("numero da conta: ");
+		int num = scan.nextInt();
+		System.out.print("titular: ");
+		String nome = scan.nextLine();
+		System.out.print("saldo inicial: ");
+		double valor = scan.nextDouble();
+		System.out.print("limite de saque: ");
+		double limite = scan.nextDouble();
+		
+		
+		
+		
+		scan.close();
+		
+	}
+	
+
+}

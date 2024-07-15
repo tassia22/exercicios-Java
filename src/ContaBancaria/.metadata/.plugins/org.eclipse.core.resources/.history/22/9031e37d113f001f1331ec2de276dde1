@@ -1,0 +1,36 @@
+package Aplicacao;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import Entites.Conta;
+
+public class Programa {
+	
+	public static void main(String [] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner scan = new Scanner (System.in);
+		
+		System.out.println("insira os dados da conta");
+		System.out.print("numero da conta: ");
+		int num = scan.nextInt();
+		System.out.print("titular: ");
+		scan.nextLine();
+		String nome = scan.nextLine();
+		System.out.print("saldo inicial: ");
+		double valor = scan.nextDouble();
+		System.out.print("limite de saque: ");
+		double limite = scan.nextDouble();
+		
+		Conta conta = new Conta(num, nome, valor, limite);
+		
+		System.out.print("novo saldo: " + conta.saque());
+		
+		
+		scan.close();
+		
+	}
+	
+
+}

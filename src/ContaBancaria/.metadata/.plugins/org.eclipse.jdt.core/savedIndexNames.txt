@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\tassi\Downloads\ContaBancaria\.metadata\.plugins\org.eclipse.jdt.core
+3048978010.index
+1865797976.index
+3232525406.index
